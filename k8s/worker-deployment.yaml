@@ -20,7 +20,3 @@ spec:
             value: redis-cluster-ip-service
           - name: RESIS_PORT
             value: "6379"
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
